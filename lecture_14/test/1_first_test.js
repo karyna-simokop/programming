@@ -104,7 +104,7 @@ contract("Wolf", async(accounts)=>{
 
 });
 
-	contract("Horse", async(accounts)=>{
+	contract("Horse and Farmer", async(accounts)=>{
 		let horse=false;;
 		it("Horse is deployed to blockchain",async()=>{
 			let horseIsDeployed = false;
